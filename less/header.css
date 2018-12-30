@@ -1,0 +1,22 @@
+#header .container .row {
+  line-height: 40px;
+}
+#header .container .row div {
+  font-size: 12px;
+}
+#header .container .row div a {
+  color: #666;
+}
+#header .container .row div a img {
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
+  z-index: 999;
+  display: none;
+}
+#header .container .row div a:hover img {
+  display: block;
+}
+#header .container .row div ~ div {
+  border-left: 1px solid lightgray;
+}
